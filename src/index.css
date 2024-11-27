@@ -62,7 +62,11 @@ body.light-mode {
   transition: background-color 0.3s ease!important;
   overflow: hidden;
 }
-
+@media (max-width:767px){
+  .scroll-to-top-button{
+    display: none !important;
+  }
+}
 .scroll-to-top-button:hover {
   background-color: #333 !important; 
 }
