@@ -46,7 +46,7 @@ const Hero = () => {
                         <h2 className="text-center text-md font-medium text-gray-400 mb-12">
                             TRUSTED BY OUR PARTNERS
                         </h2>
-                        <div className="px-20 grid grid-cols-2  md:grid-cols-3 lg:grid-cols-6">
+                        <div className="px-20 grid grid-cols-2  gap-5 md:grid-cols-3 lg:grid-cols-6">
                             {partners.map((partner) => (
                                 <div
                                     key={partner.name}
