@@ -67,7 +67,7 @@ const Footer = () => {
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                 >
-                    <p className="text-gray-400 text-sm">
+                    <p className="text-gray-400 text-sm  whitespace-nowrap">
                         © Copyright 2024. All Rights Reserved By Redift
                     </p>
                     <div className="flex gap-4 mt-4 md:mt-0">
