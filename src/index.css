@@ -10,7 +10,7 @@
 }
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  overflow-x: hidden !important;
+  overflow-x: hidden !important ;
 }
 ::selection{
   background-color: brown;
@@ -50,27 +50,24 @@ body.light-mode {
 }
 /*  scroll-to-top button */
 .scroll-to-top-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #000; 
-  color: #333;
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 10;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #333 !important;
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 30px !important;
+  z-index: 10!important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)!important;
+  transition: background-color 0.3s ease!important;
+  overflow: hidden;
 }
 
 .scroll-to-top-button:hover {
-  background-color: #333; 
+  background-color: #333 !important; 
 }
 .scroll-to-top-button:hover svg {
-  fill: white; 
+  fill: white !important; 
 }
 
 .scroll-to-top-button svg {
