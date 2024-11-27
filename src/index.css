@@ -10,6 +10,7 @@
 }
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden !important;
 }
 ::selection{
   background-color: brown;
