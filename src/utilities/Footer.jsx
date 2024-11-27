@@ -20,7 +20,7 @@ const Footer = () => {
 
     return (
         <footer className="py-16 px-16">
-            <div className="container mx-auto max-w-6xl">
+            <div className=" mx-auto max-w-6xl">
                 
                 {/* Newsletter */}
                 <div 

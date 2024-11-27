@@ -14,7 +14,7 @@ const News = () => {
 
     return (
         <section className="py-16 px-2">
-            <div className="container mx-auto max-w-6xl">
+            <div className=" mx-auto max-w-6xl">
                 <header className="text-center mb-12">
                     <h3
                         className="text-gray-400 mb-2"

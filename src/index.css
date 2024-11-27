@@ -64,7 +64,7 @@ body.light-mode {
 }
 @media (max-width:767px){
   .scroll-to-top-button{
-    display: none !important;
+    /* display: none !important; */
   }
 }
 .scroll-to-top-button:hover {

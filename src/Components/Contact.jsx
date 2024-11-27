@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen py-16 px-4">
-      <div className="container mx-auto max-w-6xl">
+      <div className=" mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Section */}
           <section
@@ -103,13 +103,13 @@ const Contact = () => {
                 />
               </div>
 
-              <footer className="flex justify-between">
+              <footer className="flex justify-between flex-wrap ">
                 <p className="text-gray-500">
                   You Can Also Email Us At <br /> Apac@Redtilt.Team
                 </p>
                 <button
                   type="submit"
-                  className="px-5 bg-red-800 hover:bg-red-600 text-white rounded-lg p-2 transition-colors"
+                  className="px-5 bg-red-800 hover:bg-red-600 text-white rounded-lg p-2 transition-colors md:mt-2"
                   aria-label="Send message"
                 >
                   Send message
